@@ -3,11 +3,6 @@
   <p align="center">
     Front-End Web da Aplicação usando ReactJS
   </p>
-
-  <p align="center" style="margin-top: 15px;">
-    <a href="https://insomnia.rest/run/?label=Dev%20Radar&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fwill-souza97%2F01-dev-radar_backend%2Fmaster%2FRun_Insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-  </p>
-
 </header>
 
 <p align="center" style="margin-top: 15px;">
