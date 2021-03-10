@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<header align="center" >
+  <img align="center" src="./.github/dev-radar-react.svg" alt="Dev Radar">
+  <p align="center">
+    Front-End Web da Aplicação usando ReactJS
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center" style="margin-top: 15px;">
+    <a href="https://insomnia.rest/run/?label=Dev%20Radar&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fwill-souza97%2F01-dev-radar_backend%2Fmaster%2FRun_Insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  </p>
 
-## Available Scripts
+</header>
 
-In the project directory, you can run:
+<p align="center" style="margin-top: 15px;">
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="">Instruções para o FrontEnd</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/will-souza97/dev-radar_backend">Dev Radar BackEnd</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="">Dev Radar Mobile</a>
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 id="tecnologias">Tecnologias</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn test`
+- [`React`](https://reactjs.org/)
+- [`Axios`](https://www.npmjs.com/package/axios)
+- [`Styled Components`](https://www.npmjs.com/package/styled-components)
+- [`Polished`](https://www.npmjs.com/package/polished)
+- [`Prop Types`](https://www.npmjs.com/package/prop-types)
+- [`Dotenv`](https://www.npmjs.com/package/dotenv)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1 id="projeto">Projeto</h1>
 
-### `yarn build`
+O Dev Radar é uma aplicação de construida com uma API de geolocalização,
+onde é possível cadastrar e excluir Devs e tambem realizar uma Busca por
+Devs de acordo com as Tecnologias informadas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1 id="instrucao">Instruções para o FrontEnd</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Você precisará ter instalado na sua máquina o Node.js e o Yarn.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Executar o comando `yarn` para fazer o dowload de todas as dependências necessárias para executar o projeto.
 
-### `yarn eject`
+- Caso você tenha feito Deploy da sua API, copie todo o conteudo do arquivo `.env.example` e cole em um arquivo chamado `.env`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+      REACT_URL_API= urldaapi.com
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Senão não será preciso do arquivo `.env`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feitas as configurações, execute `yarn start` para que o Front-End esteja funcionando
